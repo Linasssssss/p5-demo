@@ -1,15 +1,20 @@
+
+var test =  new Bouncable(100, 100, 50);
+
+
 function setup() {
   createCanvas(400, 400);
-  frameRate(5);
+
 }
 
 
 function draw() {
-  background(
-    Math.floor(Math.random() * 255),
-    Math.floor(Math.random() * 255),
-    Math.floor(Math.random() * 255)
-  );
+  background(220);
+
+
+
+  test.draw();
+
 
 
 }

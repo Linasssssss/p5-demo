@@ -27,6 +27,9 @@ class Bouncable {
 }
 
 
+var bouncables = [];
+
+
 function setupBouncables() {
     bouncables = [];
     

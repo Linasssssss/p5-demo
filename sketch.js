@@ -5,6 +5,9 @@ var canvasX = 400;
 var canvasY = 400;
 
 
+
+
+
 function setup() {
   createCanvas(canvasX, canvasY);
 

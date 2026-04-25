@@ -26,5 +26,5 @@ function drawFlags(){
   flagSegment('#FF0000',50,150,250,50,0.05,0.9)
 
 
-  frequency += 0.2
+  frequency += 0.08
 }

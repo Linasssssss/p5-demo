@@ -1,6 +1,10 @@
 function projectSelected() {
    const projectsSelect = document.getElementById('projects');
 
+   frameRate(60);
+
+keyPressedScript = function() {};
+
    if (projectsSelect.value === 'bouncables'){
         setupScript = setupBouncables;
         drawScript = drawBouncables;
@@ -8,8 +12,12 @@ function projectSelected() {
         setupScript = function() {};
         drawScript = drawFlags;
  } else if(projectsSelect.value === 'snake'){
-        setupScript = setupSnake;
-        drawScript = drawSnake;
+       frameRate(5);
+       
+       setupScript = setupSnake;
+       drawScript = drawSnake;
+       keyPressedScript = keyPressedSnake;
+
  }
 
  setupScript();

@@ -33,7 +33,7 @@ var bouncables = [];
 function setupBouncables() {
     bouncables = [];
     
-    for (var i = 0; i < 3; i++){
+    for (var i = 0; i < 5; i++){
         bouncables.push(new Bouncable( 
             color(random(0, 255), random(0, 255), random(0, 255)), 
             random(50, 350), 

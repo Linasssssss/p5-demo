@@ -12,7 +12,7 @@ keyPressedScript = function() {};
         setupScript = function() {};
         drawScript = drawFlags;
  } else if(projectsSelect.value === 'snake'){
-       frameRate(5);
+       frameRate(2);
        
        setupScript = setupSnake;
        drawScript = drawSnake;
@@ -20,5 +20,5 @@ keyPressedScript = function() {};
 
  }
 
- setupScript();
+setupScript();
 }

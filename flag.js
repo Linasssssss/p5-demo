@@ -21,10 +21,10 @@ function flagSegment(color, xInitial, yInitial, segmentWidth, segmentHeight, par
 
 function drawFlags(){
 
-  flagSegment('#FFEB3B',50,50,250,50,0.05,0.9)
-  flagSegment('#00FF0A',50,100,250,50,0.05,0.9)
-  flagSegment('#FF0000',50,150,250,50,0.05,0.9)
+  flagSegment('#FFEB3B',50,50,250,50,0.05,2)
+  flagSegment('#00FF0A',50,100,250,50,0.05,2)
+  flagSegment('#FF0000',50,150,250,50,0.05,2)
 
 
-  frequency += 0.08
+  frequency += 0.1
 }
